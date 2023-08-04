@@ -10,6 +10,8 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="countdown.js" defer></script>
+    <script src="scrolltotop.js" defer></script>
 </head>
 
 <body>  
@@ -34,14 +36,18 @@
                   <li class="nav-item">
                     <a class="nav-link" href="suswithsp.html">Sustainability in SP</a>
                   </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="form.html">Feedback Form</a>
+                  </li>
                 </ul>
             </div>
           </div>
-        </div>
       </nav>
   
     <div class="col-12 mt-2">
         <p class="display-2 text-center">Hello, I'm Clarence!</p>
+        <p class="h4 text-center">Countdown to my birthday:</h4>
+        <p class="display-6 text-center" id="timer"> </p>
     </div>
     <div class="container">
         <div class="row">
@@ -49,8 +55,8 @@
               <p class="display-3 text-center">Who am I?</p>
               <p class="text-start fs-5">I'm a year 1 student in Singapore Polytechnic currently studying in School of Computing's <b>Diploma in Applied AI & Analytics</b>.
               <br><br>Since young, I have had an interest in buses and photography. As a bus enthusiast, I chase after unique bus models, advertisements and/or deployments and photograph them. Even when I'm overseas, I do try and make some time to photograph whatever's interesting in the country.
-              <br><br>I also do cosplay photography for my friends, which involves me planning storyboards and references, going to different places for photoshoots and going to many events with them, such as Anime Festival Asia & Cosfest. 
-              <br><br>I mainly use my Sony RX-10 iv as my main camera and a Fujifilm X-E1 with a Fuji XF50mm f/2 R WR as my side camera.
+              <br><br>I also do cosplay photography for my friends, which involves me planning storyboards and finding references for different aspects of the shoot, going to different places for photoshoots and going to many events with them, such as Anime Festival Asia & Cosfest. 
+              <br><br>I mainly use a Sony RX-10 iv as my main camera and a Fujifilm X-E1 with a Fuji XF50mm f/2 R WR as my side camera.
               </p>
           </div>
           <div class="col-xl-4 mt-2">
@@ -177,8 +183,20 @@
         </div>
     </div>
     <div class="container">
-      <div class="col-xl-12 mt-2">
-        <p class="text-center">&copy; Clarence Tan 2023</p>
+      <div class="col-12 mt-2">
+          <p class="display-4 text-center">My Socials</p>
+      </div>
+      <div class="col-12 d-flex justify-content-center mb-3">
+        <iframe src="https://www.instagram.com/aphotoabode/embed/" width="1000" height="480" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+      </div>
+    </div>
+    <div class="container mb-2">
+      <div class="d-flex align-items-center">
+        <button type="button" class="btn btn-outline-dark" id="btn-back-to-top">
+          Back to Top
+        </button>
+        <div class="col-10 mt-2">
+          <p class="text-center">&copy; Clarence Tan 2023</p></div>
       </div>
     </div>
 </body>
